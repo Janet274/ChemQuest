@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#32104f">
+	<meta name="description" content="ChemQuest: Learn, play, and master MYP5 redox chemistry.">
+	<title>ChemQuest | Learn · Play · Master Redox</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script src="Script.js" defer></script>
+</head>
+<body data-page="home">
+	<header class="topbar">
+		<a class="brand" href="Index.html" aria-label="ChemQuest home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>Chem<span class="brand-accent">Quest</span><small>LEARN · PLAY · MASTER REDOX</small></span></a>
+		<nav class="main-nav" aria-label="Main navigation">
+			<a href="Index.html" class="nav-link active" aria-current="page">Home</a>
+			<a href="Learn.html" class="nav-link">Learn</a>
+			<a href="Quiz.html" class="nav-link">Quiz / Play</a>
+			<a href="Shop.html" class="nav-link">Shop</a>
+			<a href="Progress.html" class="nav-link">Progress</a>
+		</nav>
+		<div class="topbar-tools"><a class="coin-pill" href="Shop.html" aria-label="Open shop and view coin balance"><span aria-hidden="true">✦</span><span id="header-coins">10</span><span class="coin-label">coins</span></a><button class="sound-toggle" type="button" id="sound-toggle" aria-pressed="false" aria-label="Success sound off">♫ <span>Sound off</span></button></div>
+	</header>
+	<p class="storage-notice" id="storage-notice" role="status" hidden></p>
+	<main>
+		<section class="home-section page-section" aria-labelledby="home-title">
+			<div class="home-copy">
+				<p class="eyebrow"><span class="eyebrow-dot"></span> MYP 5 CHEMISTRY · REDOX UNIT</p>
+				<h1 id="home-title">ChemQuest:<br><span>Learn · Play · Master Redox.</span></h1>
+				<p class="home-intro">Ready to follow the electrons? Build your redox skills one clever reaction at a time.</p>
+				<div class="home-actions"><a class="button button-lime" href="Learn.html">Choose a lesson <span aria-hidden="true">↗</span></a><a class="button button-outline" href="Quiz.html">Play the quiz <span aria-hidden="true">→</span></a></div>
+				<div class="home-stats" aria-label="Course overview"><div><strong>05</strong><span>learning labs</span></div><div><strong>15</strong><span>quest questions</span></div><div><strong>10</strong><span>starter coins</span></div></div>
+			</div>
+			<aside class="mission-panel home-mission" aria-label="Your next mission">
+				<div class="mission-top"><span class="mission-tag">YOUR NEXT MISSION</span><span class="mission-star" aria-hidden="true">✳</span></div>
+				<div class="mentor-row"><span class="mentor-avatar" aria-hidden="true"><span>e<sup>−</sup></span></span><p class="speech-bubble">Hey, electron explorer! Ready to discover who gives electrons away?</p></div>
+				<div class="molecule-art" aria-hidden="true"><span class="orbit orbit-one"></span><span class="orbit orbit-two"></span><span class="orbit orbit-three"></span><span class="nucleus">e<sup>−</sup></span><span class="electron electron-one"></span><span class="electron electron-two"></span><span class="electron electron-three"></span></div>
+				<p class="mission-kicker">THE REDOX FILES / 01</p><h2>Every electron<br>has a story.</h2><p>Follow the transfer from magnesium to copper, then learn to balance the evidence.</p>
+				<a href="lesson-introduction.html" class="mission-link">Open Module 01 <span aria-hidden="true">↗</span></a>
+			</aside>
+			<section class="home-actions-panel" aria-labelledby="quick-actions-title"><div class="action-grid-heading"><p class="eyebrow">YOUR QUEST BOARD</p><h2 id="quick-actions-title">Pick your next move.</h2></div><div class="action-grid">
+				<a class="action-card" href="Learn.html"><span class="action-icon" aria-hidden="true">⚗</span><span class="action-title">Learn</span><span>Choose from five redox modules.</span><span class="action-arrow" aria-hidden="true">↗</span></a>
+				<a class="action-card" href="Quiz.html"><span class="action-icon" aria-hidden="true">✳</span><span class="action-title">Quiz / Play</span><span>Test your chemistry and earn coins.</span><span class="action-arrow" aria-hidden="true">↗</span></a>
+				<a class="action-card" href="Shop.html"><span class="action-icon" aria-hidden="true">✦</span><span class="action-title">Shop</span><span>Spend your coins on lab-day style.</span><span class="action-arrow" aria-hidden="true">↗</span></a>
+				<a class="action-card" href="Progress.html"><span class="action-icon" aria-hidden="true">▤</span><span class="action-title">Progress</span><span>Celebrate your completed quests.</span><span class="action-arrow" aria-hidden="true">↗</span></a>
+			</div></section>
+			<footer class="home-tracker"><div><span class="progress-label">YOUR REDOX ADVENTURE</span><strong id="home-progress-label">0% complete</strong></div><div class="progress-track" role="progressbar" aria-label="Overall learning progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="home-progress-fill"></span></div><a class="text-link" href="Progress.html">View progress →</a></footer>
+		</section>
+	</main>
+	<footer class="site-footer"><a class="footer-brand" href="Index.html">ChemQuest<span> / THE CHEMISTRY ADVENTURE</span></a><p>Curiosity is a pretty good catalyst.</p><a href="Learn.html" class="back-top">START YOUR QUEST ↑</a></footer>
+</body>
+</html>

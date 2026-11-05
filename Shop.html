@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#32104f">
+	<meta name="description" content="Spend your ChemQuest coins on avatar outfits earned through chemistry practice."><title>Reward Shop | ChemQuest</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"><script src="Script.js" defer></script>
+</head>
+<body data-page="shop">
+	<header class="topbar"><a class="brand" href="Index.html" aria-label="ChemQuest home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>Chem<span class="brand-accent">Quest</span><small>LEARN · PLAY · MASTER REDOX</small></span></a><nav class="main-nav" aria-label="Main navigation"><a href="Index.html" class="nav-link">Home</a><a href="Learn.html" class="nav-link">Learn</a><a href="Quiz.html" class="nav-link">Quiz / Play</a><a href="Shop.html" class="nav-link active" aria-current="page">Shop</a><a href="Progress.html" class="nav-link">Progress</a></nav><div class="topbar-tools"><a class="coin-pill" href="Shop.html" aria-label="Your coin balance"><span aria-hidden="true">✦</span><span id="header-coins">10</span><span class="coin-label">coins</span></a><button class="sound-toggle" type="button" id="sound-toggle" aria-pressed="false" aria-label="Success sound off">♫ <span>Sound off</span></button></div></header>
+	<p class="storage-notice" id="storage-notice" role="status" hidden></p>
+	<main><section class="progress-section shop-page page-section" aria-labelledby="shop-title"><div class="progress-header"><div><p class="eyebrow">THE ATOM-ATELIER / REWARD SHOP</p><h1 id="shop-title">Dress for <span>discovery.</span></h1><p class="shop-intro">Earn one coin the first time you answer a quiz question correctly. Spend coins here to unlock an outfit; purchases and your balance are saved.</p></div><div class="total-coins"><span aria-hidden="true">✦</span><div><strong id="progress-coins">10</strong><small>YOUR COINS</small></div></div></div>
+		<div class="shop-layout"><aside class="wardrobe-panel"><div class="wardrobe-heading"><div><p class="wardrobe-kicker">YOUR AVATAR</p><h2>Ready for lab.</h2></div><span class="hanger-icon" aria-hidden="true">✳</span></div><div class="avatar-preview" aria-label="Your avatar preview"><span class="avatar-hair"></span><span class="avatar-face"><span class="avatar-eye left"></span><span class="avatar-eye right"></span><span class="avatar-smile"></span></span><span class="avatar-shirt" id="avatar-shirt"></span><span class="avatar-caption" id="avatar-caption">LAB ORIGINAL</span></div><p>Your selected outfit appears here.</p></aside><section class="shop-catalog"><h2>UNLOCK A NEW LOOK</h2><p class="shop-feedback" id="shop-feedback" aria-live="polite"></p><div class="wardrobe-items" id="wardrobe-items"></div></section></div>
+		<div class="page-next"><a class="text-link" href="Learn.html">Earn more coins in a lesson quiz ↗</a><a class="text-link" href="Progress.html">See your learning progress ↗</a></div>
+	</section></main>
+	<footer class="site-footer"><a class="footer-brand" href="Index.html">ChemQuest<span> / THE CHEMISTRY ADVENTURE</span></a><p>Curiosity is a pretty good catalyst.</p><a href="Quiz.html" class="back-top">EARN QUEST COINS →</a></footer>
+</body>
+</html>
